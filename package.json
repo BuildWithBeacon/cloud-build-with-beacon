@@ -1,5 +1,6 @@
 {
   "name": "cloud-build-with-beacon",
+  "version": "1.0.0",
   "description": "Landing page for Beacon Co., experts in ServiceTitan and Microsoft Dynamics 365 consulting.",
   "cloudflare": {
     "label": "Astro Framework Starter",
