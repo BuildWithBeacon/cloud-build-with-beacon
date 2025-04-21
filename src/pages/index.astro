@@ -9,6 +9,31 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Beacon Co.",
+        "url": "https://www.buildwithbeacon.io",
+        "logo": "https://www.buildwithbeacon.io/images/Beacon%20Black%20on%20White.png",
+        "description": "Beacon Co. is a trusted ServiceTitan Expert and Microsoft Dynamics 365 Consultant, providing software implementation, automation, and consulting services for home service and construction companies.",
+        "areaServed": {
+          "@type": "Country",
+          "name": "United States"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/build-withbeacon/",
+          "https://x.com/buildbeaconco"
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@buildwithbeacon.io",
+          "contactType": "customer support"
+        }
+      }
+    </script>
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="ServiceTitan Expert, ServiceTitan Consultant, ServiceTitan Business Automation, Microsoft Dynamics 365 Consultant, field service software consulting, FSM implementation, home service automation">
   </head>
 
   <body class="bg-white text-gray-800">
@@ -39,35 +64,35 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
       <section id="services" class="mt-24">
         <div class="text-center mb-12">
-          <h3 class="text-4xl font-bold text-gray-900 mb-4">Our Consulting and Automation Services</h3>
+          <h2 class="text-4xl font-bold text-gray-900 mb-4">Our Consulting and Automation Services</h2>
           <p class="text-lg text-gray-600 max-w-2xl mx-auto">From software selection to full-scale implementation and optimization, we support your digital transformation across field service platforms.</p>
         </div>
         <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
             <img src="/images/servicetitan-icon.png" alt="ServiceTitan Icon" class="w-12 h-12 mb-4 mx-auto" />
-            <h4 class="text-xl font-semibold mb-2">ServiceTitan Expert Implementation</h4>
+            <h3 class="text-xl font-semibold mb-2">ServiceTitan Expert Implementation</h3>
             <p>Full setup, onboarding, and optimization tailored for field service operations.</p>
           </div>
           <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
             <img src="/images/consultant-icon.png" alt="Consultant Icon" class="w-12 h-12 mb-4 mx-auto" />
-            <h4 class="text-xl font-semibold mb-2">ServiceTitan Consulting and Support</h4>
+            <h3 class="text-xl font-semibold mb-2">ServiceTitan Consulting and Support</h3>
             <p>Custom workflows, automations, and troubleshooting for better results.</p>
           </div>
           <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
             <img src="/images/automation-icon.png" alt="Automation Icon" class="w-12 h-12 mb-4 mx-auto" />
-            <h4 class="text-xl font-semibold mb-2">ServiceTitan Business Automation</h4>
+            <h3 class="text-xl font-semibold mb-2">ServiceTitan Business Automation</h3>
             <p>Streamline repetitive tasks and scale profitably with automation strategies.</p>
           </div>
           <div class="bg-gray-50 p-6 rounded-xl shadow-md text-center">
             <img src="/images/dynamics365-icon.png" alt="Microsoft Dynamics Icon" class="w-12 h-12 mb-4 mx-auto" />
-            <h4 class="text-xl font-semibold mb-2">Microsoft Dynamics 365 Consultant</h4>
+            <h3 class="text-xl font-semibold mb-2">Microsoft Dynamics 365 Consultant</h3>
             <p>Configuration, integration, and training for Dynamics 365 in service industries.</p>
           </div>
         </div>
       </section>
 
       <section id="contact" class="mt-24 bg-gradient-to-r from-[#f1f5f9] to-[#e2e8f0] p-10 rounded-xl shadow-md text-center">
-        <h3 class="text-3xl font-bold mb-4 text-gray-900">Get in Touch</h3>
+        <h2 class="text-3xl font-bold mb-4 text-gray-900">Get in Touch</h2>
         <p class="mb-6 text-gray-700 text-lg">Ready to streamline your software stack? Let’s talk about how Beacon can help.</p>
         <a href="mailto:hello@buildwithbeacon.io" class="text-blue-700 font-semibold text-lg underline">hello@buildwithbeacon.io</a>
       </section>
